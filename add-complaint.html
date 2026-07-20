@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Add Complaint</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2>ComplaintMS</h2>
+
+<ul>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="my-complaints.html">My Complaints</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section class="register">
+
+<h1>Register Complaint</h1>
+
+<form id="complaintForm">
+
+<input
+type="text"
+id="title"
+placeholder="Complaint Title"
+required>
+
+<select id="category" required>
+
+<option value="">Select Category</option>
+
+<option>Electricity</option>
+
+<option>Water Supply</option>
+
+<option>Road Damage</option>
+
+<option>Garbage</option>
+
+<option>Internet</option>
+
+<option>Other</option>
+
+</select>
+
+<select id="priority" required>
+
+<option value="">Priority</option>
+
+<option>Low</option>
+
+<option>Medium</option>
+
+<option>High</option>
+
+</select>
+
+<textarea
+id="description"
+placeholder="Describe your complaint"
+rows="6"
+required></textarea>
+
+<button type="submit">
+
+Submit Complaint
+
+</button>
+
+</form>
+
+</section>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
